@@ -37,7 +37,7 @@ const About = () => {
       </motion.div>
 
       <div ref={ref} className="w-full max-w-[500px] m-auto">
-        {isInView && <Lottie animationData={something} loop={false} />}
+        {isInView && <Lottie animationData={something} />}
       </div>
     </>
   );
