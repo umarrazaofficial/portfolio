@@ -24,6 +24,7 @@ import {
   Reliability,
   communication,
   dedication,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -92,6 +93,10 @@ const technologies = [
   {
     name: "Git",
     icon: git,
+  },
+  {
+    name: "GitHub",
+    icon: github,
   },
   {
     name: "Figma",

@@ -32,7 +32,7 @@ import optimization from "./company/optimization.png";
 import greenme from "./greenme.png";
 import payzee from "./payzee.png";
 import aka from "./aka.png";
-import nextjs from "../assets/tech/next.png";
+import nextjs from "../assets/tech/nextjs.svg";
 import shopspy from "../assets/shopspy.png";
 import bootstrap from "../assets/tech/bootstrap.svg";
 import lockey from "../assets/lockey.jpg";
