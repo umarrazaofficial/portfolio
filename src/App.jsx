@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Hero, Works, Navbar } from "./components";
+import { About, Contact, Experience, Hero, Works, Navbar, Skills } from "./components";
 import Whatsapp from "./components/Whatsapp/Whatsapp";
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Skills />
         <Experience />
         <Works />
         <Contact />
