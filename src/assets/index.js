@@ -43,6 +43,8 @@ import creative from "../assets/creative.gif";
 import Reliability from "../assets/Reliability.gif";
 import communication from "../assets/communication.gif";
 import dedication from "../assets/dedication.gif";
+import cakeshare from "../assets/cakeshare.jpg";
+import austin from "../assets/austin.jpg";
 
 export {
   nextjs,
@@ -90,4 +92,6 @@ export {
   Reliability,
   communication,
   dedication,
+  cakeshare,
+  austin,
 };

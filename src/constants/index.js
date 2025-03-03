@@ -15,7 +15,7 @@ import {
   nextjs,
   bootstrap,
   aka,
-  shopspy,
+  cakeshare,
   lockey,
   allocateHome,
   smmQuizBg,
@@ -25,6 +25,7 @@ import {
   communication,
   dedication,
   github,
+  austin,
 } from "../assets";
 
 export const navLinks = [
@@ -168,6 +169,68 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Property Booking Platform",
+    description:
+      "Austin David Apartments is a property booking platform designed to provide users with a seamless and efficient booking experience. With a focus on modern UI and smooth navigation, the platform ensures an intuitive and hassle-free reservation process.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Styled Components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Context API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: austin,
+    // source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Fractional Investment  Platform",
+    description:
+      "CakeShares is a fractional investment platform that enables users to invest in product shares seamlessly. Designed for efficiency and user engagement, CakeShares provides a streamlined experience for managing and purchasing fractional shares, ensuring real-time data updates and smooth transactions.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Styled Components",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Context API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cakeshare,
+  },
+  {
+    name: "Movies Application",
+    description:
+      "Movies Application is a simple platform where users can sign up or log in to explore movies. The app also includes a feature that lets users add their favorite movies to a dedicated 'Favorites' section, making it easy to keep track of the movies they love.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Style Components",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smmQuizBg,
+  },
+  {
     name: "E-Commerce Store",
     description:
       "US Store is a comprehensive online platform designed for both administrators and shoppers to engage in seamless e-commerce transactions. With a focus on functionality and user experience, USStore provides a powerful set of features to streamline product management and purchasing, ensuring a smooth and efficient shopping experience for all users involved.",
@@ -228,26 +291,6 @@ const projects = [
       },
     ],
     image: coachbg,
-  },
-  {
-    name: "Movies Application",
-    description:
-      "Movies Application is a simple platform where users can sign up or log in to explore movies. The app also includes a feature that lets users add their favorite movies to a dedicated 'Favorites' section, making it easy to keep track of the movies they love.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Style Components",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: smmQuizBg,
   },
 ];
 
